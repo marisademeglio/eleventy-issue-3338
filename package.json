@@ -1,0 +1,19 @@
+{
+  "name": "eleventy-dev-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf _site",
+    "build": "cross-env NODE_ENV=production eleventy",
+    "dev": "cross-env DEBUG=Eleventy* eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0-alpha.13",
+    "cross-env": "^7.0.3",
+    "rimraf": "^5.0.7"
+  }
+}
